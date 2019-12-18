@@ -7,5 +7,17 @@ pipeline {
       }
     }
 
+    stage('Test') {
+      steps {
+        sleep 1
+      }
+    }
+
+    stage('Deploy') {
+      steps {
+        sleep 1
+      }
+    }
+
   }
 }
